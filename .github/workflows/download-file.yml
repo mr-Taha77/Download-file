@@ -26,8 +26,8 @@ jobs:
 
       - name: Download APK file
         env:
-          FILE_URL: https://github.com/ajavadinezhad/zyrln/releases/download/v1.4.0/zyrln-1.4.0.apk
-          FILE_NAME: zyrln.apk
+          FILE_URL: https://dl2soft98.82.ir.cdn.ir/soft/i/Icecream.Screen.Recorder.Pro.7.46.rar?1778074065
+          FILE_NAME: x.rar
         run: |
           curl -L $FILE_URL -o files/$FILE_NAME
 
